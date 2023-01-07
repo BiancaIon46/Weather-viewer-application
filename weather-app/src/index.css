@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/src/background.png);
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#search {
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.weather {
+    align-items: center;
+    justify-content: center;
+}

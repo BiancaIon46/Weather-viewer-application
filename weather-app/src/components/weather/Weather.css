@@ -1,0 +1,112 @@
+.weather {
+    width: 35vw;
+    border-radius: 3vw;
+    box-shadow: 1vw -0.2vw 2vw 0.2vw rgb(190, 222, 233);
+    color: rgb(236, 226, 226);
+    background-color: rgb(37, 150, 190);
+    margin: 5vw auto 0 auto;
+    padding: 1vw;
+    justify-content: center;
+    opacity: 0.9 !important;
+    z-index: 1000;
+    align-content: center;
+    padding-bottom: -1vw;
+    position: relative;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    padding-top:5vh;
+}
+
+#image {
+    justify-content: center;
+    padding-top: 1vh;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+#gradWeather {
+    background-image: linear-gradient(to bottom left, #022391, rgb(38, 191, 202));
+}
+
+p {
+    font-size: 3vw;
+    padding: 0%;
+}
+
+p.time {
+    font-size: 1.5vw;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.column p,.description{
+    margin: 0;
+    font-style: italic;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.weatherIcon {
+  width: 12vw;
+  
+}
+
+.temperature {
+  font-weight: 600;
+  font-size: 6vw;
+  width: auto;
+  letter-spacing: -0.1vw;
+  margin: 0 0;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 0.2vw;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  font-size: larger;
+  justify-content: space-between;
+}
+
+.row .value{
+    text-align: 1vw;
+}
+
+.label {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.5vw;
+  flex-direction: row;
+  padding-right: 2vw;
+}
+
+.value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 1.5vw;
+}
+
+label{
+  border-bottom: 1vw solid #fff;
+}
