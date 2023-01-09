@@ -8,7 +8,7 @@ import redHeart from './redHeart.png';
 export default function Weather(data) {
   const {latitude, longitude} = data.data;
   const [weatherInfo, setWeatherInfo] = useState(() => {});
-  const client = createClient(`563492ad6f917000010000018ed297825297491ba887b6635cbc3254`); //pexels api
+  const client = createClient(`APIkey`); //pexels api
   const [query, setQuery] = useState(() =>{})
   const [cityPhoto, setCityPhoto] = useState(() => {});
   const currentDate = Date().substring(0, 15);
@@ -16,7 +16,7 @@ export default function Weather(data) {
   const [heartImage, setHeartImage] = useState(() => heart);
 
   const callWeatherAPI = function() {
-    return axios.request(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=e5c28260159fe44f13040d89ac866fc4&units=metric`)
+    return axios.request(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=APIkey&units=metric`)
       .then(function (response) {
         return {
             feels_like: response.data.main.feels_like,
