@@ -12,7 +12,7 @@ export default function Search(props) {
             url: 'https://wft-geo-db.p.rapidapi.com/v1/geo/cities',
             params: {namePrefix: `${value}`, sort: '-population'},
             headers: {
-                'X-RapidAPI-Key': 'e0fb35cfdamsh47dcc40adf04d95p1a2fcajsn8dc643637520',
+                'X-RapidAPI-Key': 'API key',
                 'X-RapidAPI-Host': 'wft-geo-db.p.rapidapi.com'
             }
         };
