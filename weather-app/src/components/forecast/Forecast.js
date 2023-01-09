@@ -9,7 +9,7 @@ export default function Forecast(data) {
     const [forecastInfo, setforecastInfo] = useState(() => {});
 
     const callForecastAPI = function() {
-        return axios.request(`https://api.openweathermap.org/data/2.5/forecast/?&daily&lat=${latitude}&lon=${longitude}&cnt=7&appid=e5c28260159fe44f13040d89ac866fc4&units=metric`)
+        return axios.request(`https://api.openweathermap.org/data/2.5/forecast/?&daily&lat=${latitude}&lon=${longitude}&cnt=7&appid=APIkey&units=metric`)
           .then(function (response) {
             console.log(response);
             return response.data.list.map(function(elem) {
