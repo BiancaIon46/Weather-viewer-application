@@ -2,9 +2,9 @@ This weather viewer application shows the actual weather of any city (made using
 
 You can search for any city and choose from the autocomplete list. 
 
-The app gives you the possibility to add a city to favorites if you click on the empty heart, changing the empty heart image to a full red heart image to let you know that the city was added. You can add and remove the city from favourites by clicking the heart image. The favourites city list is stored in local storage to save the list even if you refresh the page. 
+The app gives you the possibility to add a city to favorites if you click on the empty heart, changing the empty heart image to a full red heart image to let you know that the city was added. You can add and remove the city from favorites by clicking the heart image. The favorites city list is stored in local storage to save the list even if you refresh the page. 
 
-The favourites city list is being displayed when you click on the search bar. 
+The favorites city list is being displayed when you click on the search bar. 
 
 A loading spinner is displayed when the weather and forecast information is loading.
 
